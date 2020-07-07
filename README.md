@@ -1,14 +1,5 @@
 # python_operator_airflow
 
-run file env_airflow.sh to install airflow and setup localhost:8080
-$ sh file.sh
-
-Then start localhost: http://localhost:8080/admin/
-
-After that create folder dags in airflow
-
-#
-
 
 
 
