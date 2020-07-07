@@ -5,7 +5,7 @@
 2. Create folder dags and put script.py files downloaded on github into that folder
 	$mkdir dags 
 
-3. Run airflow scheduler
+3. Run airflow scheduler by command line
 	$ airflow scheduler
  
 
