@@ -1,16 +1,17 @@
 # python_operator_airflow
+1. Run file env_airflow.sh to install airflow and setup localhost
+	$ sh env_airflow.sh
 
+2. Create folder dags and put script.py files downloaded on github into that folder
+	$mkdir dags 
 
+3. Run airflow scheduler
+	$ airflow scheduler
+ 
 
+4. Open localhost and test
 
+http://localhost:8080/admin/
+ 
+ 
 
-
-
-
-
-
-
-
-# change the path of folder: 
-cd to path of dags folder that u download: 
-export AIRFLOW__CORE__DAGS_FOLDER=$PWD
