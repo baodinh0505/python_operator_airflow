@@ -1,3 +1,1 @@
-#Required software:
-  1. Python3 installed
-  2. PIP installed
+apache-airflow
