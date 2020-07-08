@@ -12,6 +12,8 @@
 	$ airflow initdb
 	
 	$airflow webserver -p 8080
+	
+	
  Or run file env_airflow.sh to install airflow and setup localhost
 	
 	$ sh env_airflow.sh
