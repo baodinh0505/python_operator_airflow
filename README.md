@@ -1,23 +1,29 @@
 # python_operator_airflow
-1. Run file env_airflow.sh to install airflow and setup localhost
+1. Run file setting_up.sh to create virtual environment and install python3, pip:
+
+	$ sh setting_up.sh
+
+
+
+2. Run file env_airflow.sh to install airflow and setup localhost
 	
 	
 	
 	$ sh env_airflow.sh
 
-2. Create folder dags and put script.py files downloaded on github into that folder
+3. Create folder dags and put script.py files downloaded on github into that folder
 	
 	
 	
 	$mkdir dags 
 
-3. Run airflow scheduler by command line
+4. Run airflow scheduler by command line
 	
 	
 	$ airflow scheduler
  
 
-4. Open localhost and test
+5. Open localhost and test
 
 http://localhost:8080/admin/
  
